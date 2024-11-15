@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d268223-24cf-453c-bcad-c93cd93cc214" name="Changes" comment="?" />
+    <list default="true" id="7d268223-24cf-453c-bcad-c93cd93cc214" name="Changes" comment="?">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/AjouterModifierMatInfo/AjouterModifierMatInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/AjouterModifierMatInfo/AjouterModifierMatInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ConnexionInscription/ConnexionInscription.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ConnexionInscription/ConnexionInscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/UserList/UserList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/UserList/UserList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/assets/background_login.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/assets/logo-qualite-sans-fond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/assets/logo-qualite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/assets/logo_icon.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/assets/orangeExemple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +86,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "homeConsultationNavbar",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/yayam/IdeaProjects/front_projet_qualite_log",
     "node.js.detected.package.eslint": "true",
@@ -107,7 +149,7 @@
       <workItem from="1731154684171" duration="2494000" />
       <workItem from="1731572083422" duration="606000" />
       <workItem from="1731656186192" duration="67000" />
-      <workItem from="1731663410573" duration="3173000" />
+      <workItem from="1731663410573" duration="3894000" />
     </task>
     <task id="LOCAL-00001" summary="ajout page connexion inscription et navbar (pas fini)">
       <option name="closed" value="true" />

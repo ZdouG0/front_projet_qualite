@@ -1,0 +1,48 @@
+nav {
+    text-align: center;
+}
+
+.liste_element_navbar img {
+    height: auto;
+    max-height: 40px;
+    cursor: pointer;
+}
+
+.liste_element_navbar {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.element_navbar {
+    padding: 1rem 0;
+    width: auto;
+    margin-left: 20px;
+}
+
+.element_navbar p {
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: auto;
+    background-color: transparent;
+    font-size: 18px;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    outline: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.element_navbar p:hover {
+    color: #007bff;
+}
+
+.element_navbar p:active {
+    transform: translateY(3px);
+}
+
+.selected p {
+    display: inline-block;
+    content: '';
+    border-bottom: solid 3px #019fb6;
+}

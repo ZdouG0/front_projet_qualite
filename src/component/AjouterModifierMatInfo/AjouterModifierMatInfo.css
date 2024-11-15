@@ -1,0 +1,113 @@
+.body {
+    padding-top: 7%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.containerForm {
+    height: fit-content;
+    width: fit-content;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.containerForm h1 {
+    font-size: 32px;
+
+}
+
+.containerForm h3 {
+    font-size: 14px;
+    color: #323842FF;
+}
+
+.containerForm .setImage {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.containerForm .textSetImage {
+    display: block;
+}
+
+.containerForm .buttonSetImage {
+    display: flex;
+    gap: 20px;
+}
+
+.containerForm .imageici {
+    background-color:  #636AE8FF;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+
+}
+
+
+.button {
+    height: fit-content;
+    padding: 10px;
+    width: fit-content;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.OkButton {
+    background-color: #ffffff;
+    border: 1px solid #007bff ;
+    color: #007bff;
+}
+
+.NoButton {
+    background-color: #ffffff;
+    border: 1px solid red ;
+    color: red;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+
+.addImage    {
+    display: none;
+}
+
+.file-input-label{
+    cursor: pointer;
+}
+
+.setMatInfo {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.setMatInfo input {
+
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.setMatInfo .ButtonSubmit{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}

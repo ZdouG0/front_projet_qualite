@@ -1,0 +1,153 @@
+.body {
+
+    height: fit-content;
+    min-height: fit-content;
+
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.container {
+
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    max-width: 1400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 90rem;
+    min-height: fit-content;
+    max-height: 20vh;
+    margin-bottom: 40px;
+}
+
+.form-container {
+    grid-column: 1;
+    min-width: 40%;
+    padding: 20px;
+}
+
+.form-container img {
+    height: 20rem;
+    width: auto;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input {
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container form  .boxError {
+    border: 3px solid #dd2a2a;
+}
+
+.form-container form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+.image-container {
+    grid-column: 2;
+    background-image: url('../assets/background_login.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-top-left-radius: 500px;
+}
+
+.PagePurpose {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.PagePurpose .blue,.grey {
+    padding: 1.4rem;
+    margin: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+
+.PagePurpose .blue:hover {
+    background-color: #0056b3;
+}
+
+.PagePurpose .grey:hover {
+    background-color: #67676c;
+}
+
+.PagePurpose .blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.PagePurpose .grey {
+    background-color: #b1a9a9;
+}
+
+
+.Error {
+    margin-top: 1px;
+    color: red;
+}
+
+.radio-container {
+    margin-bottom: 15px;
+    display: inline-flex;
+
+}
+
+.radio-container legend {
+    margin-bottom: 10px;
+}
+
+.radio-container label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.radio-container input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
