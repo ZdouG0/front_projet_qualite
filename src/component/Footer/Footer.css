@@ -1,0 +1,36 @@
+.footContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.logo{
+    grid-column: 1;
+    text-align: center;
+}
+.logo img {
+    margin-top: 15px;
+    width: 10rem;
+    height: auto;
+}
+
+.contact-foot {
+    grid-column: 2;
+}
+
+.legal-foot {
+    grid-column: 3;
+}
+
+
+.footer-element {
+    width: fit-content;
+}
+
+.footer-element:hover {
+
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}

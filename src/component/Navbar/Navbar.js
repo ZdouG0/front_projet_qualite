@@ -1,50 +1,45 @@
-import React, { useState } from 'react';
-import "./Navbar.css";
 
-function Navbar(props) {
+import "./Navbar.css";
+import logo_icon from "../assets/logo_icon.PNG"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser,faList,faBook,faPlus,faHouse } from "@fortawesome/free-solid-svg-icons";
+
+function Navbar({ isConnected, isAdmin,pageActuelle,setPageActuelle }) {
     // state
-    const [selectionHome, setSelectionHome] = useState("selected");
-    const [selectionMat, setSelectionMat] = useState("");
-    const [selectionHisto, setSelectionHisto] = useState("");
-    const [selectionConsult, setSelectionConsult] = useState("");
+
 
     // comportement
-    const handleSelectionHome = () => {
-        setSelectionHome("selected");
-        setSelectionMat("");
-        setSelectionHisto("");
-        setSelectionConsult("");
+    const handleSelection = (selection) => {
+        setPageActuelle(selection);
+
     };
 
-    const handleSelectionMat = () => {
-        setSelectionHome("");
-        setSelectionMat("selected");
-        setSelectionHisto("");
-        setSelectionConsult("");
-    };
-
-    const handleSelectionHisto = () => {
-        setSelectionHome("");
-        setSelectionMat("");
-        setSelectionHisto("selected");
-        setSelectionConsult("");
-    };
-
-    const handleSelectionConsult = () => {
-        setSelectionHome("");
-        setSelectionMat("");
-        setSelectionHisto("");
-        setSelectionConsult("selected");
-    };
+    const handleClickLogo = ()=> {
+        //page Accueil
+    }
 
     // render
     return (
         <nav>
             <div className="liste_element_navbar">
-                <div onClick={handleSelectionHome} className={`element_navbar ${selectionHome}`}><p>Home</p></div>
-                <div onClick={handleSelectionMat} className={`element_navbar ${selectionMat}`}><p>Ajouter materiels</p></div>
-                <div onClick={handleSelectionHisto} className={`element_navbar ${selectionHisto}`}><p>Historiques des emprunts</p></div>
-                <div onClick={handleSelectionConsult} className={`element_navbar ${selectionConsult}`}><p>Consultation utilisateurs</p></div>
+                <div onClick={handleClickLogo} ><img src={logo_icon} alt="logo"/></div>
+                <div onClick={() => handleSelection("Home")} className={`element_navbar ${pageActuelle === "Home" ? "selected" : ""}`}><p><FontAwesomeIcon icon={faHouse} /> Home</p></div>
+
+                {isAdmin && (
+                    <div onClick={() => handleSelection("AjouterMateriel")} className={`element_navbar ${pageActuelle === "AjouterMateriel" ? "selected" : ""}`}><p><FontAwesomeIcon icon={faPlus} /> Ajouter materiels</p></div>
+                )}
+
+                <div onClick={() => handleSelection("historiquesEmprunts")} className={`element_navbar ${pageActuelle === "historiquesEmprunts" ? "selected" : ""}`}><p><FontAwesomeIcon icon={faBook} /> Historiques des emprunts</p></div>
+
+                {isAdmin && (
+                    <div onClick={() => handleSelection("UserListPage")} className={`element_navbar ${pageActuelle === "UserListPage" ? "selected" : ""}`}><p><FontAwesomeIcon icon={faList} /> Consultation utilisateurs</p></div>
+                )}
+
+                {isConnected !== true ?
+                    <div onClick={() => handleSelection("LogPage")} className={`element_navbar ${pageActuelle === "LogPage" ? "selected" : ""}`}><p><FontAwesomeIcon icon={faUser} /> Connexion</p></div>
+                    : <div onClick={() => handleSelection("account")} className={`element_navbar ${pageActuelle === "account" ? "selected" : ""}`}> <p><FontAwesomeIcon icon={faUser} /> Mon Profil </p> </div>
+                }
+
             </div>
         </nav>
     );

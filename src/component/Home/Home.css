@@ -1,0 +1,103 @@
+/* General styles for container */
+
+.bodyHome{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.containerHome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center align items */
+    gap: 50px;
+    padding: 20px;
+}
+
+/* Styles for category labels */
+.CategoryLabelContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.CategoryLabel {
+
+
+    background-color: #ededed;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;  /* Add pointer cursor to show it's clickable */
+}
+
+
+.selectedLabel {
+    border: blue 1px solid;
+    background-color: #ffffff;
+    color: blue;
+    font-weight: bold;
+}
+/* General styles for product lists */
+.ListeProductCat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  /* Make full width to ensure proper centering */
+
+}
+
+.TitreCateg {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+
+.ContentDisplay {
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping of items if necessary */
+    gap: 15px;
+    justify-content: center;  /* Center align products */
+    width: 100%;
+}
+
+.ProductDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center align product content */
+}
+
+.ImageProduct {
+    width: 300px;  /* Set image size */
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.NomduProduit {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.SeeMoreLabel {
+    margin-left: 2rem;
+    float: right;
+    position: revert;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.SeeMoreLabel:hover {
+    font-weight: bold;
+    color: #007bff;
+
+}
+
+.SeeMoreLabel:active{
+    transform: translateY(3px);
+}
